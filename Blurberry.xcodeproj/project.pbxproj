@@ -37,6 +37,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A20F3017293BB6370024DE57 /* Blurberry */ = {
+			isa = PBXGroup;
+			children = (
+				E9F4A69C2508D016002EDC02 /* General */,
+				E9F4A69E2508D016002EDC02 /* Views */,
+			);
+			path = Blurberry;
+			sourceTree = "<group>";
+		};
+		A20F3018293BB6870024DE57 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E9F4A6822508C9E7002EDC02 /* Blurberry.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		E9F4A6752508C9E7002EDC02 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +73,9 @@
 		E9F4A6812508C9E7002EDC02 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E9F4A6822508C9E7002EDC02 /* Blurberry.h */,
-				E9F4A69C2508D016002EDC02 /* General */,
-				E9F4A69E2508D016002EDC02 /* Views */,
-				E9F4A6A12508D016002EDC02 /* Extensions */,
+				A20F3018293BB6870024DE57 /* include */,
+				A20F3017293BB6370024DE57 /* Blurberry */,
+				E9F4A6A12508D016002EDC02 /* NSObject+extension */,
 				E9F4A6832508C9E7002EDC02 /* Info.plist */,
 			);
 			path = Sources;
@@ -82,13 +98,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E9F4A6A12508D016002EDC02 /* Extensions */ = {
+		E9F4A6A12508D016002EDC02 /* NSObject+extension */ = {
 			isa = PBXGroup;
 			children = (
 				E9F4A6A22508D016002EDC02 /* NSObject+Extension.h */,
 				E9F4A6A32508D016002EDC02 /* NSObject+Extension.m */,
 			);
-			path = Extensions;
+			path = "NSObject+extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
