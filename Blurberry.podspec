@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Blurberry"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.2"
   spec.summary      = "Extends the functionality of the UIVisualEffectView"
   spec.homepage     = "https://github.com/unboxme/Blurberry"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
